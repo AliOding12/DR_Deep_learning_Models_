@@ -1,0 +1,7 @@
+.env
+bashscript.sh
+*.pyc
+__pycache__/
+saved_models/
+data/
+<!-- Initial commit: Set up project with .gitignore and requirements -->

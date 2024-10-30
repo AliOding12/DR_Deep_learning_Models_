@@ -8,4 +8,4 @@ tqdm==4.65.0
 onnx==1.14.0
 onnxruntime==1.15.1
 pytest==7.4.0
-scikit-learn==1.3.0
+scikit-learn==1.3.0# Initial commit: Set up project with .gitignore and requirements
