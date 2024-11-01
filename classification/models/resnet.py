@@ -9,4 +9,4 @@ class ResNet(nn.Module):
         self.model.fc = nn.Linear(self.model.fc.in_features, num_classes)
 
     def forward(self, x):
-        return self.model(x)
+        return self.model(x)# Add ResNet model implementation
