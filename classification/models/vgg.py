@@ -53,4 +53,4 @@ class VGG16(nn.Module):
         x = self.avgpool(x)
         x = torch.flatten(x, 1)
         x = self.classifier(x)
-        return x
+        return x# Add VGG model implementation
