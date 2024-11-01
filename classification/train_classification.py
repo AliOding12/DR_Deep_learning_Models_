@@ -47,4 +47,4 @@ def main():
     save_model(model, args.save_path)
 
 if __name__ == '__main__':
-    main()
+    main()# Add classification training script
