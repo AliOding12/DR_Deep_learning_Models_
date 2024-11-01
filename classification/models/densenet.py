@@ -9,4 +9,4 @@ class DenseNet(nn.Module):
         self.model.classifier = nn.Linear(self.model.classifier.in_features, num_classes)
 
     def forward(self, x):
-        return self.model(x)
+        return self.model(x)# Add DenseNet model implementation
