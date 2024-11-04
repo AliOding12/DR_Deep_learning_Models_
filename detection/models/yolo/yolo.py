@@ -10,4 +10,4 @@ class YOLO(torch.nn.Module):
             self.model = load_yolo_weights(self.model, weights_path)
 
     def forward(self, x):
-        return self.model(x)
+        return self.model(x)# Add YOLO model implementation
