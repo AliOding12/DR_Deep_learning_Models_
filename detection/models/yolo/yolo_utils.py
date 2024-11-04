@@ -34,4 +34,4 @@ class CustomYOLODataset:
         annotations = {'boxes': [], 'labels': []}
         if self.transform:
             img = self.transform(img)
-        return img, annotations
+        return img, annotations# Add YOLO utility functions
