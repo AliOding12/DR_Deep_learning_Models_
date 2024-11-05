@@ -6,4 +6,4 @@ data:
   val_dir: data/detection/val
 training:
   batch_size: 16
-  epochs: 50
+  epochs: 50# Add YOLOv5 configuration
