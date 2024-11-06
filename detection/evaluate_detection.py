@@ -26,4 +26,4 @@ def main():
     evaluate(model, test_loader, device)
 
 if __name__ == '__main__':
-    main()
+    main()# Add detection evaluation script
