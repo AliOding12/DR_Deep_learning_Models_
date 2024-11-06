@@ -30,4 +30,4 @@ def main():
     torch.save(model.state_dict(), config['model']['weights'])
 
 if __name__ == '__main__':
-    main()
+    main()# Add detection training script
