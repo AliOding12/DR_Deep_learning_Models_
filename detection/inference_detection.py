@@ -30,4 +30,4 @@ def main():
     print(f'Predictions for {image_path}: {predictions}')
 
 if __name__ == '__main__':
-    main()
+    main()# Add detection inference script
