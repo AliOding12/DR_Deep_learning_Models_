@@ -53,4 +53,4 @@ class UNet(nn.Module):
         d1 = torch.cat([d1, e1], dim=1)
         d1 = self.dec1(d1)
         
-        return self.final_conv(d1)
+        return self.final_conv(d1)# Add UNet model implementation
