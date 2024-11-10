@@ -67,4 +67,4 @@ def main():
     torch.save(model.state_dict(), args.save_path)
 
 if __name__ == '__main__':
-    main()
+    main()# Add segmentation training script
