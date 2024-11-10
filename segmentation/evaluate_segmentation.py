@@ -42,4 +42,4 @@ def main():
     evaluate(model, test_loader, criterion, device)
 
 if __name__ == '__main__':
-    main()
+    main()# Add segmentation evaluation script
