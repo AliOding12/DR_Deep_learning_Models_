@@ -34,4 +34,4 @@ def main():
     export_to_onnx(model, input_shape, args.output_path, device)
 
 if __name__ == '__main__':
-    main()
+    main()# Add ONNX conversion script
