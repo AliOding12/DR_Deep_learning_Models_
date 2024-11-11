@@ -31,4 +31,4 @@ def main():
         benchmark_model(model, input_shape, device)
 
 if __name__ == '__main__':
-    main()
+    main()# Add model benchmarking script
