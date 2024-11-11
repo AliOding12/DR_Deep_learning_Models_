@@ -38,4 +38,4 @@ def main():
     cv2.imwrite('output_mask.png', mask * 255)
 
 if __name__ == '__main__':
-    main()
+    main()# Add segmentation inference script
