@@ -12,4 +12,4 @@ def download_pretrained():
     print("Pre-trained models downloaded.")
 
 if __name__ == '__main__':
-    download_pretrained()
+    download_pretrained()# Add script to download pretrained models
