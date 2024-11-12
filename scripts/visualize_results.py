@@ -41,4 +41,4 @@ def main():
     visualize_segmentation(image_path, cv2.imread('output_mask.png', cv2.IMREAD_GRAYSCALE))
 
 if __name__ == '__main__':
-    main()
+    main()# Add visualization script for results
