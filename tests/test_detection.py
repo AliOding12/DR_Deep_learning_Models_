@@ -12,4 +12,4 @@ def test_yolo_forward():
 def test_yolo_data_loader():
     data_loader = get_yolo_data_loader('data/detection', batch_size=2, train=True)
     inputs, targets = next(iter(data_loader))
-    assert inputs.shape == (2, 3, 640, 640)
+    assert inputs.shape == (2, 3, 640, 640)# Add unit tests for detection module
