@@ -11,3 +11,4 @@ class YOLO(torch.nn.Module):
 
     def forward(self, x):
         return self.model(x)# Add YOLO model implementation
+# Optimize YOLO model inference
