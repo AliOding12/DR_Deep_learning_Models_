@@ -18,3 +18,4 @@ def load_model(model, path, device='cuda'):
     model.load_state_dict(torch.load(path, map_location=device))
     model.to(device)
     return model# Add utility functions for classification
+# Fix bug in classification utilities
