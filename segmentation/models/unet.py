@@ -54,3 +54,4 @@ class UNet(nn.Module):
         d1 = self.dec1(d1)
         
         return self.final_conv(d1)# Add UNet model implementation
+# Improve UNet loss function
