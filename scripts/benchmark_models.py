@@ -32,3 +32,4 @@ def main():
 
 if __name__ == '__main__':
     main()# Add model benchmarking script
+# Optimize benchmarking script
