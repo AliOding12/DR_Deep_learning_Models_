@@ -1,0 +1,9 @@
+model:
+  weights: saved_models/detection/yolov5.pt
+  num_classes: 80
+data:
+  train_dir: data/detection/train
+  val_dir: data/detection/val
+training:
+  batch_size: 16
+  epochs: 50
